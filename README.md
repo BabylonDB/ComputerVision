@@ -73,7 +73,7 @@ This project classifies wristwatch images into **15 unique brands** using a cust
 
 - Accuracy plots from `matplotlib`:
 
-  -ComputerVision/output.png
+  -![Train_Val](output.png)
 
 - Sample prediction visualization:
 
