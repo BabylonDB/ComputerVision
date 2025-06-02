@@ -73,16 +73,16 @@ This project classifies wristwatch images into **15 unique brands** using a cust
 
 - Accuracy plots from `matplotlib`:
 
-  ![Training Accuracy Curve](/workspaces/ComputerVision/output.png)
+  ![Training Accuracy Curve](/ComputerVision/output.png)
 
 - Sample prediction visualization:
 
   ![Sample Prediction]
-  True: Cluse, Predicted: Cluse, Score: 1.00
-  True: Daniel Wellington, Predicted: Daniel Wellington, Score: 1.00
-  True: Swatch, Predicted: Swatch, Score: 0.98
-  True: VERSUS Versace, Predicted: Versace, Score: 0.57
-  True: Nixon, Predicted: iConnect By Timex, Score: 0.95
+  -True: Cluse, Predicted: Cluse, Score: 1.00
+  -True: Daniel Wellington, Predicted: Daniel Wellington, Score: 1.00
+  -True: Swatch, Predicted: Swatch, Score: 0.98
+  -True: VERSUS Versace, Predicted: Versace, Score: 0.57
+  -True: Nixon, Predicted: iConnect By Timex, Score: 0.95
 
 - Real-time performance on HuggingFace via Gradio
 
