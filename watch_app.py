@@ -5,17 +5,17 @@ import numpy as np
 import tensorflow as tf
 from keras.models import load_model
 
-# Load your trained model
-model = load_model("watch_brand_classifier.h5")  # Make sure this file is present
 
-# Class names (must match your training labels)
+model = load_model("watch_brand_classifier.h5")  
+
+
 class_names = [
     'Armani Exchange', 'August Berg', 'BOSS', 'Bellroy', 'Casio',
     'Citizen', 'Fossil', 'Guess', 'Michael Kors', 'Seiko',
     'Tissot', 'Tommy Hilfiger', 'TW Steel', 'Versace', 'iConnect By Timex'
 ]
 
-# Load CLIP model for zero-shot
+
 clip_detector = pipeline(
     model="openai/clip-vit-large-patch14", 
     task="zero-shot-image-classification"
