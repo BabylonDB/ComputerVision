@@ -3,30 +3,36 @@
 This project classifies wristwatch images into **15 unique brands** using a custom-trained **Convolutional Neural Network (CNN)** alongside a **zero-shot transformer model (CLIP)** for comparison.
 
 ###  Hosted Spaces
-- **App**: [Watch Brand Classifier Gradio App](https://huggingface.co/spaces/your-username/watch-brand-classifier)  
-- **Model**: [`watch_brand_classifier.keras`](https://huggingface.co/spaces/your-username/watch-brand-classifier/blob/main/watch_brand_classifier.keras)  
-- **Code**: [`app.py`](https://huggingface.co/spaces/your-username/watch-brand-classifier/blob/main/app.py)  
-- **Images**: [`images/`](https://huggingface.co/spaces/your-username/watch-brand-classifier/tree/main/images)
+- **App**: [Watch Brand Classifier Gradio App](https://huggingface.co/spaces/BerkantBaskaya/Computer_Vision_Watch)  
+- **Model**: [`watch_brand_classifier.keras`](https://huggingface.co/spaces/BerkantBaskaya/Computer_Vision_Watch/blob/main/watch_brand_classifier.h5)  
+- **Code**: [`app.py`](hhttps://huggingface.co/spaces/BerkantBaskaya/Computer_Vision_Watch/blob/main/app.py)  
+
 
 ---
 
 ##  Class Labels
 
-- Armani Exchange  
-- August Berg  
-- BOSS  
-- Bellroy  
-- Casio  
-- Citizen  
-- Fossil  
-- Guess  
-- Michael Kors  
-- Seiko  
-- Tissot  
-- Tommy Hilfiger  
-- TW Steel  
-- Versace  
-- iConnect By Timex
+| Brand 1              | Brand 2                | Brand 3           | Brand4                     |
+|----------------------|------------------------|-------------------|-----------------------------|
+| Armani Exchange      | August Berg            | BOSS              | Bellroy                     |
+| Billabong            | Casio                  | Chuchka           | Cluse                       |
+| DKNY                 | DUKUDU                 | Daniel Wellington | Dbramante1928               |
+| Diesel               | Doxie Watches          | Ducati Watches by Locman Italy | Emporio Armani     |
+| Fitbit               | Fossil                 | Friendie          | Furla                       |
+| G-SHOCK              | Gant                   | Garmin            | Georg Jensen                |
+| Guess                | Jag                    | Kate Spade        | Le Specs                    |
+| MIMCO                | Maserati               | Maxum             | Michael Hill                |
+| Michael Kors         | Mido                   | Misfit            | Missguided                  |
+| Missoni              | Montblanc              | Native Union      | Nixon                       |
+| Olivia Burton        | Paul Hewitt            | Philipp Plein     | Polar                       |
+| Police               | Puma                   | Reflex Active     | Rose & Coy                  |
+| Rosefield            | Salvatore Ferragamo    | Samsung           | Skagen                      |
+| Status Anxiety       | Superdry               | Suunto            | Swatch                      |
+| THOMAS SABO          | TIMEX                  | TONY+WILL         | TW Steel                    |
+| Ted Baker            | The Horse              | Tissot            | Tommy Hilfiger              |
+| UAG                  | VERSUS Versace         | Versace           | Vivienne Westwood           |
+| adidas Originals     | iConnect By Timex      |                   |                             |
+
 
 ---
 
@@ -51,7 +57,7 @@ This project classifies wristwatch images into **15 unique brands** using a cust
 - **Data Cleaning**:
   - Removed images not found in the folder
   - Filtered out brands with < 2 samples
-- **Final Classes**: 15
+- **Final Classes**: 64
 - **Split**: 80% Train / 20% Validation
 - **Image Size**: 128×128
 - **Generator**: Custom `Sequence` class using `OpenCV` and `TensorFlow`
