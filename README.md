@@ -62,7 +62,7 @@ This project classifies wristwatch images into **15 unique brands** using a cust
 
 | Epochs | Optimizer | Loss | Train Accuracy | Val Accuracy |
 |--------|-----------|------|----------------|---------------|
-| 10     | Adam      | categorical_crossentropy | ~98% | ~90% |
+| 10     | Adam      | categorical_crossentropy | ~68% | ~72% |
 
 - Trained on CPU with TensorFlow 2.x
 - Used dropout (0.5) to reduce overfitting
