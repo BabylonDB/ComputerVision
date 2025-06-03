@@ -1,6 +1,6 @@
 #  Watch Brand Classification with CNN and CLIP
 
-This project classifies wristwatch images into **15 unique brands** using a custom-trained **Convolutional Neural Network (CNN)** alongside a **zero-shot transformer model (CLIP)** for comparison.
+This project classifies wristwatch images into **64 unique brands** using a custom-trained **Convolutional Neural Network (CNN)** alongside a **zero-shot transformer model (CLIP)** for comparison.
 
 ###  Hosted Spaces
 - **App**: [Watch Brand Classifier Gradio App](https://huggingface.co/spaces/BerkantBaskaya/Computer_Vision_Watch)  
